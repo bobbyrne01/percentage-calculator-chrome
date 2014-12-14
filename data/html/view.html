@@ -1,0 +1,65 @@
+<html>
+	<head>
+		<meta charset="UTF-8" />
+		<link rel="stylesheet" type="text/css" media="all" href="../css/style.css"/>
+		<script src="../js/controller.js"></script>
+	</head>
+	<body>
+		<form>
+			<table>				
+				<tr>
+					<td>
+						What is <input id="f1a" type="number" /> % of <input id="f1b" type="number"></input>
+					</td>
+					<td>
+						<button id="f1" type="button">Evaluate</button>
+					</td>
+					<td>
+						<input id="f1answer" readonly="true" size="5">
+					</td>
+				</tr>
+				<tr>
+					<td>
+						<input id="f2a" type="number"></input> is what % of <input id="f2b" type="number"></input>
+					</td>
+					<td>
+						<button id="f2" type="button">Evaluate</button>
+					</td>
+					<td>
+						<input id="f2answer" readonly="true" size="5">%
+					</td>
+				</tr>
+				<tr>
+					<td>
+						% increase/decrease from <input id="f3a" type="number"></input> to <input id="f3b" type="number"></input>
+					</td>
+					<td>
+						<button id="f3" type="button">Evaluate</button>
+					</td>
+					<td>
+						<input id="f3answer" readonly="true" size="5">%
+					</td>
+				</tr>
+				
+				<tr>
+					<td>
+						<input id="f4a" type="number"></input> 
+						<select id="selection">
+							<option value="0">+</option>
+						  	<option value="1">-</option>
+						  	<option value="2">*</option>
+						  	<option value="3">/</option>
+						</select>
+						<input id="f4b" type="number"></input>%
+					</td>
+					<td>
+						<button id="f4" type="button">Evaluate</button>
+					</td>
+					<td>
+						<input id="f4answer" readonly="true" size="5">
+					</td>
+				</tr>
+			</table>
+		</form>
+	</body> 
+</html>

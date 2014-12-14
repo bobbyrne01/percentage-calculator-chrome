@@ -1,4 +1,4 @@
 percentage-calculator-chrome
-============================
+================
 
-Percentage calculator addon for Chrome
+Basic Percentage Calculator extension for Chrome
