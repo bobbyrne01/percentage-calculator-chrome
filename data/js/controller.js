@@ -21,21 +21,21 @@ window.onload=function(){
 		
 		if (document.getElementById('selection').selectedIndex == 0){
 			
-			var value = parseInt(((document.getElementById('f4b').value / 100) * document.getElementById('f4a').value));
-			document.getElementById("f4answer").value = value + parseInt(document.getElementById('f4a').value);
+			var value = parseFloat(((document.getElementById('f4b').value / 100) * document.getElementById('f4a').value));
+			document.getElementById("f4answer").value = value + parseFloat(document.getElementById('f4a').value);
 			
 		}else if (document.getElementById('selection').selectedIndex == 1){
 			
-			var value = parseInt(((document.getElementById('f4b').value / 100) * document.getElementById('f4a').value));
-			document.getElementById("f4answer").value = parseInt(document.getElementById('f4a').value) - value;			
+			var value = parseFloat(((document.getElementById('f4b').value / 100) * document.getElementById('f4a').value));
+			document.getElementById("f4answer").value = parseFloat(document.getElementById('f4a').value) - value;			
 			
 		}else if (document.getElementById('selection').selectedIndex == 2){
 			
-			document.getElementById("f4answer").value = parseInt(((document.getElementById('f4b').value / 100) * document.getElementById('f4a').value));			
+			document.getElementById("f4answer").value = parseFloat(((document.getElementById('f4b').value / 100) * document.getElementById('f4a').value));			
 			
 		}else if (document.getElementById('selection').selectedIndex == 3){
 			
-			document.getElementById("f4answer").value = parseInt(document.getElementById('f4a').value / (document.getElementById('f4b').value / 100));
+			document.getElementById("f4answer").value = parseFloat(document.getElementById('f4a').value / (document.getElementById('f4b').value / 100));
 		}
 	});
 };
